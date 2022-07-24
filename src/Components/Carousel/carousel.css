@@ -1,0 +1,14 @@
+.carousel {
+    width:100%;
+    height:auto;
+    background-color: black;
+    
+}
+.carouselInner {
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
