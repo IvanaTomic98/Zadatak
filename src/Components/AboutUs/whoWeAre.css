@@ -1,0 +1,18 @@
+.whoWeAre {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+.title_who_we_are {
+    margin-left: 400px ;
+    margin-right: 400px;
+}
+.picture {
+    width: 250px;
+    height: 150px;
+    padding-right: 20px;
+}

@@ -23,7 +23,7 @@ a {
   align-items: center;
   justify-content: space-around;
   height: 8vh;
-  background: rgb(161, 163, 166);
+  background: #fafafa;
 }
 .logo {
   text-transform: uppercase;
@@ -62,7 +62,9 @@ a {
     flex-direction: column;
     transform: translateX(100%);
     transition: 0.5s ease-in;
+    
   }
+ 
 }
 /* Active Class */
 .menu__active {

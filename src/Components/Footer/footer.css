@@ -1,9 +1,60 @@
 .footer {
-    margin-top: 1rem;
-    padding: 1rem;
-    background: gray;
-    position: fixed;
-    bottom: 0;
-    left: 0;
+    display: flex;
+    justify-content: space-around;
+    background-color: #dbdbdb;
     width: 100%;
+    left: 0;
+    bottom: 0;
+    height: 70px;
+    position:static;
+    
 }
+.facebook {
+    padding-top: 15px;
+    width: 15px;
+    height: 15px;
+   
+}
+.twitter {
+    width: 30px;
+    height: 30px; 
+    padding-top: 15px;   
+}
+.email {
+    width: 30px;
+    height: 30px;  
+    padding-top: 15px;  
+ 
+}
+.top {
+    width: 30px;
+    height: 30px; 
+    padding-top: 10px;  
+}
+.top :hover {
+    opacity: 0.7;    
+}
+.social_icon {
+    display: flex;
+    justify-content:center;
+    column-gap: 15px;
+    flex-wrap: wrap;
+   
+}
+.social_icon :hover {
+    opacity: 0.7;
+  
+} 
+.footer_menu {
+    display: flex;
+    align-items: center;
+    color: #9d9d9c;
+}
+.nav_link {
+    padding: 30px;
+    color: #9d9d9c;
+}
+.nav_name {
+    color: #6d6e71;
+}
+
